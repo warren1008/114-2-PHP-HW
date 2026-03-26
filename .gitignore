@@ -1,0 +1,39 @@
+# ========================
+# 作業系統自動產生的垃圾檔
+# ========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ========================
+# 編輯器與 IDE 設定檔
+# ========================
+# VS Code 的個人設定檔 
+.vscode/
+*.code-workspace
+
+# 其他編輯器 (Sublime, Dreamweaver 等)
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.idea/
+
+# ========================
+# PHP 與後端開發相關
+# ========================
+# 環境變數與機密資訊 (！未來如果寫到資料庫密碼，千萬別上傳)
+.env
+.env.local
+.env.*.local
+
+# 日誌檔 (Log)
+*.log
+
+# Composer 依賴套件 (假設未來課程會教到 Composer 安裝套件)
+vendor/
