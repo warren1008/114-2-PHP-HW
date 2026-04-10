@@ -8,15 +8,14 @@
     <h2>✅ 報名結果確認</h2>
     <hr>
     <?php
-        // 確保資料是透過 POST 傳遞過來的
+        
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             
-            // 接收前端表單傳來的資料
-            // htmlspecialchars() 是一個安全機制，防止惡意使用者輸入程式碼 (XSS 攻擊)
+
             $name = htmlspecialchars($_POST["student_name"] ?? '未填寫');
             $phone = htmlspecialchars($_POST["phone"] ?? '未填寫');
             
-            // 下方這兩個請根據你作業 1 實際有的欄位修改，若沒有可刪除
+            
             $diet = htmlspecialchars($_POST["diet"] ?? '未填寫');
             $session = htmlspecialchars($_POST["session"] ?? '未填寫');
 
